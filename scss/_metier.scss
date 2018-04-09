@@ -1,0 +1,15 @@
+// Styling for the portfolio section
+#metier {
+  div.questions {
+    div {
+      padding: 10px;
+      p {
+        background: lighten($primary, 50%); // #d7eae4
+        border-radius: 6px;
+        padding: 20px 20px;
+        min-height: 150px;
+        margin: 0;
+      }
+    }
+  }
+}
