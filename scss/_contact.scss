@@ -1,10 +1,6 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url('../img/map-image.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #e0e5ea;
   padding: 50px 0;
   .section-heading {
     color: $gray-700;
@@ -47,5 +43,15 @@ section#contact {
     font-weight: 700;
     color: $gray-400;
     @include heading-font;
+  }
+
+  img {
+      width: 150px;
+      height: 150px;
+      border: 3px solid $white;
+    }  
+
+  h4 {
+      margin: 20px 0 0 0;
   }
 }

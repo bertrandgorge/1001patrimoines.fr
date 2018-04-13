@@ -154,7 +154,7 @@ img::-moz-selection {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    color: #5b6a65;
+    color: #fff;
   }
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #d8d4be;
@@ -668,11 +668,7 @@ header.masthead-2 .intro-text {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #e0e5ea;
   padding: 50px 0;
 }
 
@@ -726,6 +722,16 @@ section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contact img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+}
+
+section#contact h4 {
+  margin: 20px 0 0 0;
 }
 
 footer {
