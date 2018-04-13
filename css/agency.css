@@ -734,6 +734,10 @@ section#contact h4 {
   margin: 20px 0 0 0;
 }
 
+section#contact h2.section-heading {
+  margin-top: 75px;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
