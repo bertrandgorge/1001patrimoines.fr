@@ -1,25 +1,28 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
+  background-color: #fbf4eb;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #59595c;
     border: 0;
-    background-color: $primary;
+    background-color: #fbf4eb;
     @include heading-font;
   }
   .navbar-brand {
-    color: #d8d4be;
-    @include script-font;
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: white;
+    img.logo-tree-only { 
+      display: none;
     }
+
+    img.logo-small { 
+      display: block;
+    }
+
+    img.logo-large { 
+      display: none;
+    }    
   }
   .navbar-nav {
     .nav-item {
@@ -28,11 +31,11 @@
         font-weight: 900;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
+        color: #59595c;
         @include heading-font;
         &.active,
         &:hover {
-          color: #d8d4be;
+          color: #98938c;
         }
       }
     }
@@ -46,7 +49,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #fbf4ebd4;
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -59,7 +62,19 @@
       &:focus,
       &:hover {
         color: #d8d4be;
-      }      
+      }    
+
+      img.logo-tree-only { 
+        display: none;
+      }
+
+      img.logo-small { 
+        display: none;
+      }
+
+      img.logo-large { 
+        display: block;
+      }        
     }
     .navbar-nav {
       .nav-item {
@@ -71,7 +86,8 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
+      background-color: #fbf4eb;
+
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
@@ -81,9 +97,47 @@
         &:active,
         &:focus,
         &:hover {
-          color: white;
+          color: #908d7d;
         }        
       }
+
+      img.logo-small { 
+        display: block;
+      }
+
+      img.logo-large { 
+        display: none;
+      }
+       
+      img.logo-tree-only { 
+        display: none;
+      }
+
+
     }
   }
+}
+
+@media(max-width:463px) {
+
+#mainNav {
+
+
+    .navbar-brand {
+      
+
+      img.logo-tree-only { 
+        display: block;
+      }
+
+      img.logo-small { 
+        display: none;
+      }
+
+      img.logo-large { 
+        display: none;
+      }        
+    }
+  }
+
 }

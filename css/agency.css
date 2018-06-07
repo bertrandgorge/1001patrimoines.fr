@@ -103,7 +103,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #fbf4eb;
 }
 
 #mainNav .navbar-toggler {
@@ -111,19 +111,22 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: #59595c;
   border: 0;
-  background-color: #5b6a65;
+  background-color: #fbf4eb;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#mainNav .navbar-brand {
-  color: #d8d4be;
-  font-family: 'Quicksand', sans-serif;
+#mainNav .navbar-brand img.logo-tree-only {
+  display: none;
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: white;
+#mainNav .navbar-brand img.logo-small {
+  display: block;
+}
+
+#mainNav .navbar-brand img.logo-large {
+  display: none;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,12 +134,12 @@ img::-moz-selection {
   font-weight: 900;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #59595c;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #d8d4be;
+  color: #98938c;
 }
 
 @media (min-width: 992px) {
@@ -147,7 +150,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #fbf4ebd4;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -159,13 +162,22 @@ img::-moz-selection {
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #d8d4be;
   }
+  #mainNav .navbar-brand img.logo-tree-only {
+    display: none;
+  }
+  #mainNav .navbar-brand img.logo-small {
+    display: none;
+  }
+  #mainNav .navbar-brand img.logo-large {
+    display: block;
+  }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #fbf4eb;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -173,7 +185,28 @@ img::-moz-selection {
     color: #d8d4be;
   }
   #mainNav.navbar-shrink .navbar-brand.active, #mainNav.navbar-shrink .navbar-brand:active, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: white;
+    color: #908d7d;
+  }
+  #mainNav.navbar-shrink img.logo-small {
+    display: block;
+  }
+  #mainNav.navbar-shrink img.logo-large {
+    display: none;
+  }
+  #mainNav.navbar-shrink img.logo-tree-only {
+    display: none;
+  }
+}
+
+@media (max-width: 463px) {
+  #mainNav .navbar-brand img.logo-tree-only {
+    display: block;
+  }
+  #mainNav .navbar-brand img.logo-small {
+    display: none;
+  }
+  #mainNav .navbar-brand img.logo-large {
+    display: none;
   }
 }
 
@@ -224,7 +257,7 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Quicksand', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
@@ -276,6 +309,12 @@ header.masthead-2 .intro-text {
     float: none;
     box-shadow: 5px 5px 10px #DDD;
     margin: 0 0 5px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  section#services {
+    padding: 100px 0;
   }
 }
 
@@ -665,6 +704,12 @@ header.masthead-2 .intro-text {
 
 #demarche h3 {
   font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  section#team {
+    padding: 100px 0;
+  }
 }
 
 section#contact {
