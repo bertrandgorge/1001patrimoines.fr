@@ -1,0 +1,75 @@
+//
+// Contact section styling
+//
+
+section#contact {
+    background-color   : #e0e5ea;
+    background-repeat  : no-repeat;
+    background-position: center;
+
+    h2.section-heading {
+        margin-top: 75px;
+    }
+
+    .section-heading {
+        color: $gray-700;
+    }
+
+    form#contactForm {
+        .form-group {
+            margin-bottom: $grid-gutter-width;
+
+            input,
+            textarea {
+                padding: 1.25rem;
+                height : 248px;
+            }
+
+            input.form-control {
+                height: auto;
+            }
+        }
+
+        .form-group-textarea {
+            height: 100%;
+
+            textarea {
+                height    : 100%;
+                min-height: 10rem;
+            }
+        }
+
+        p.help-block {
+            margin: 0;
+        }
+
+        .form-control:focus {
+            border-color: $primary;
+            box-shadow  : none;
+        }
+
+        ::-webkit-input-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color      : $gray-400;
+        }
+
+        :-moz-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color      : $gray-400;
+        }
+
+        ::-moz-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color      : $gray-400;
+        }
+
+        :-ms-input-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color      : $gray-400;
+        }
+    }
+}

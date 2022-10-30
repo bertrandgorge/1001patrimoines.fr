@@ -1,0 +1,139 @@
+doctype html
+html(lang='fr')
+
+    head
+        include includes/header.pug
+
+    body#page-top
+
+        // Navigation
+        include includes/navigation.pug
+
+        // Services
+        section#services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase QUI SOMMES-NOUS ?
+                .row
+                    .col-lg-12.section-subheading
+                        include:markdown-it texts/nous_connaitre.intro.md
+
+                .row
+                    .col-sm-6
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/stephanie.jpg', alt='...')
+                            h4.mb-4 Stéphanie BOULAY
+                            .text-muted
+                                include:markdown-it texts/nous_connaitre.stephanie.md
+
+                    .col-sm-6
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/camille.jpg', alt='...')
+                            h4.mb-4 Camille De SORAS
+                            .text-muted
+                                include:markdown-it texts/nous_connaitre.camille.md
+
+                    .col-sm-6
+                        .team-member
+                            h4.mb-4 Jean-Paul HUBERT
+                            .text-muted
+                                include:markdown-it texts/nous_connaitre.jean-paul.md
+
+        section#demarche.demarche
+            .container
+                .row
+                    .col-lg-12.text-center.mb-5
+                        h2.section-heading.text-uppercase Notre d&eacute;marche
+                        .section-subheading.text-muted
+                            include:markdown-it texts/nous_connaitre.demarche.intro.md
+
+                .row
+                    .col-lg-6.col-xl-3
+                        .feature-item
+                            include:markdown-it texts/nous_connaitre.demarche.1.vous_rencontrer.md
+
+                    .col-lg-6.col-xl-3
+                        .feature-item
+                            include:markdown-it texts/nous_connaitre.demarche.2.lettre_mission.md
+
+                    .col-lg-6.col-xl-3
+                        .feature-item
+                            include:markdown-it texts/nous_connaitre.demarche.3.restitution.md
+
+                    .col-lg-6.col-xl-3
+                        .feature-item
+                            include:markdown-it texts/nous_connaitre.demarche.4.mise_en_place.md
+
+        // About
+        section#about.bg-light
+            .container
+                .row
+                    .col-lg-12.text-center
+                        h2.section-heading.text-uppercase Nos valeurs
+                .row
+                    .col-lg-12
+                        ul.timeline
+                            li
+                                .timeline-image
+                                    img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='')
+                                .timeline-panel
+                                    .timeline-heading
+                                        h4 La Liberté
+                                    .timeline-body.text-muted
+                                        include:markdown-it texts/valeurs.1.liberte.md
+
+                            li.timeline-inverted
+                                .timeline-image
+                                    img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='')
+                                .timeline-panel
+                                    .timeline-heading
+                                        h4 La disponibilité, l’écoute et le dialogue
+                                    .timeline-body.text-muted
+                                        include:markdown-it texts/valeurs.2.disponibilite.md
+
+                            li
+                                .timeline-image
+                                    img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
+                                .timeline-panel
+                                    .timeline-heading
+                                        h4 La transparence, l’honnêteté
+                                    .timeline-body.text-muted
+                                        include:markdown-it texts/valeurs.3.transparence.md
+
+                            li.timeline-inverted
+                                .timeline-image
+                                    img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
+                                .timeline-panel
+                                    .timeline-heading
+                                        h4 La confidentialité
+                                    .timeline-body.text-muted
+                                        include:markdown-it texts/valeurs.4.confidentialite.md
+
+                            li
+                                .timeline-image
+                                    img.rounded-circle.img-fluid(src='assets/img/about/5.jpg', alt='')
+                                .timeline-panel
+                                    .timeline-heading
+                                        h4 La performance
+                                    .timeline-body.text-muted
+                                        include:markdown-it texts/valeurs.5.performance.md
+
+        section#statuts.statuts
+            .container
+                .section-heading.text-center
+                    h2 Des Statuts réglementés
+                .row
+                    .col-lg-12.text-muted
+                        include:markdown-it texts/statuts_reglementes.md
+
+        section#statuts.statuts
+            .container
+                .section-heading.text-center
+                    h2 Nos partenaires
+                .row
+                    .col-lg-12.text-center
+                        each image_partenaire in ['alptis.png', 'april.png', 'france_valley.png', 'generali.jpeg', 'metlife.jpeg', 'primonial.png', 'swiss_life.png', 'uaf_life.png', 'vatel_capital.png', 'vie_plus.jpeg']
+                            img.mx-5.my-2(src='assets/img/partenaires/' + image_partenaire, alt='', style='max-height: 100px')
+
+        // Footer
+        include includes/footer.pug

@@ -1,0 +1,1 @@
+1001 PATRIMOINES s’engage à respecter le caractère confidentiel des données confiées par ses clients. Le cabinet est soumis, par les autorités de tutelle, à de strictes procédures pour veiller à la confidentialité des informations que nous détenons.

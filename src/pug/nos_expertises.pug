@@ -1,0 +1,69 @@
+doctype html
+html(lang='fr')
+
+    head
+        include includes/header.pug
+
+    body#page-top
+
+        // Navigation
+        include includes/navigation.pug
+
+        // Masthead
+        section#services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Nos expertises
+                    h3.section-subheading.text-muted 1001 PATRIMOINES vous accompagne dans l’organisation, l’optimisation et la transmission de votre patrimoine.
+
+                .row
+                    #service_audit.col-md-12
+                        h4.service-heading Le conseil patrimonial
+                        img(src="assets/img/portfolio/audit-thumbnail.jpg", alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.conseil_patrimonial.md
+
+                    #service_investissement.col-md-12
+                        h4.service-heading Le conseil en investissements financiers
+                        img.img-fluid(src='assets/img/portfolio/investissement-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.conseil_investissements_financiers.md
+
+                    #service_conseil_fiscal.col-md-12
+                        h4.service-heading Le conseil en fiscal
+                        img.img-fluid(src='assets/img/portfolio/conseil_fiscal-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.conseil_fiscal.md
+
+                    #service_handicap.col-md-12
+                        h4.service-heading La gestion du patrimoine des personnes en situation de handicap
+                        img.img-fluid(src='assets/img/portfolio/handicap-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.gestion_handicap.md
+
+                    #service_retraite.col-md-12
+                        h4.service-heading L’Epargne retraite
+                        img.img-fluid(src='assets/img/portfolio/retraite-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.epargne_retraite.md
+
+                    #service_epargne.col-md-12
+                        h4.service-heading L’Epargne salariale
+                        img.img-fluid(src='assets/img/portfolio/epargne-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.epargne_salariale.md
+
+                    #service_entreprise.col-md-12
+                        h4.service-heading La protection du chef d’entreprise
+                        img.img-fluid(src='assets/img/portfolio/chef_entreprise-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.protection_entreprise.md
+
+                    #service_famille.col-md-12
+                        h4.service-heading La protection du particulier et de sa famille
+                        img.img-fluid(src='assets/img/portfolio/famille-thumbnail.jpg', alt='')
+                        .text-muted
+                            include:markdown-it texts/expertise.protection_particulier.md
+
+        // Footer
+        include includes/footer.pug

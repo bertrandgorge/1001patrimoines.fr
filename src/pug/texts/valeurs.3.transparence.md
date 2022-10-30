@@ -1,0 +1,1 @@
+1001 PATRIMOINES s’engage à fournir à ses clients toutes les informations sur ses statuts, son mode de fonctionnement, sa rémunération, dans un souci de transparence, afin d’établir une relation de confiance réciproque

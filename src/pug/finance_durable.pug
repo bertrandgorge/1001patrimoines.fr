@@ -1,0 +1,25 @@
+doctype html
+html(lang='fr')
+
+    head
+        include includes/header.pug
+
+    body#page-top
+
+        // Navigation
+        include includes/navigation.pug
+
+        // Masthead
+        section#services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase La finance durable
+                .row
+                    .col-md-2
+                    .col-md-8
+                        .text-muted
+                            include:markdown-it texts/finance_durable.md
+                    .col-md-2
+
+        // Footer
+        include includes/footer.pug

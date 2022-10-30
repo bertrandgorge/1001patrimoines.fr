@@ -1,0 +1,55 @@
+//
+// Global theme styling
+//
+
+// Scroll padding for all scroll targets on page used with
+// native CSS smooth scrolling
+//
+// https://caniuse.com/?search=scroll-padding
+
+html {
+    scroll-padding-top: 4.5rem;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+
+    // Adjust for the navigation
+    margin-top: 60px;
+}
+
+// Adjust the line height of paragraphs
+
+p {
+    line-height: $line-height-lg;
+}
+
+// Spacing and heading styling for page sections
+
+section {
+    padding: 6rem 0;
+
+    h2.section-heading {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    h3.section-subheading {
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 75px;
+        text-transform: none;
+        font-family: $serif-font;
+    }
+}
+
+// Increase the padding on sections when screen size is greater
+// than the medium breakpoint (set by Bootstrap)
+
+@include media-breakpoint-up(md) {
+    section {
+        padding: 4rem 0;
+    }
+}
