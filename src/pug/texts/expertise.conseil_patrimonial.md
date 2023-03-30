@@ -1,4 +1,2 @@
 Le conseil patrimonial consiste à analyser de façon approfondie votre patrimoine et élaborer des stratégies visant à répondre aux différentes problématiques soulevées. Nous réalisons un bilan global de votre situation  **juridique**  (régime matrimonial et dispositions prises, dispositions testamentaires, donations…),  **fiscale**  (impôt sur le revenu, IFI…),  **financière**  (placements, assurances …),  **économique**  (vos biens, vos dettes…).
 Ce diagnostic transversal nous amène à vous apporter des préconisations qui répondent à vos besoins et objectifs de court, moyen et long terme.
-
-Après une analyse détaillée de votre patrimoine, nous vous proposons des solutions de placement et d’assurance adaptées à vos objectifs. Nous travaillons avec un grand nombre de fournisseurs, pour pouvoir recommander un produit réellement approprié à chacun.

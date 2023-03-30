@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
+* Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
 /*!
@@ -11244,7 +11244,7 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
-  margin-top: 60px;
+  margin-top: 94px;
 }
 
 p {
@@ -11297,7 +11297,7 @@ section h3.section-subheading, section .section-subheading.h3 {
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   color: #59595c;
@@ -11529,26 +11529,20 @@ header.masthead .masthead-heading {
 }
 
 .service-heading {
-  margin: 75px 0 15px 0;
+  margin: 0px 0 15px 0;
   text-transform: none;
   font-size: 175%;
 }
 
+#services p {
+  text-align: justify;
+}
 #services img {
-  width: 200px;
-  float: right;
+  width: 80%;
+  border-radius: 10px;
   box-shadow: 5px 5px 10px #DDD;
-  margin: 0 0 5px 10px;
 }
 
-@media (max-width: 450px) {
-  #services img {
-    width: 100%;
-    float: none;
-    box-shadow: 5px 5px 10px #DDD;
-    margin: 0 0 5px 0px;
-  }
-}
 @media (max-width: 768px) {
   section#services {
     padding: 100px 0;
@@ -11586,7 +11580,7 @@ header.masthead .masthead-heading {
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
-  text-align: left;
+  text-align: justify;
 }
 .timeline > li .timeline-panel:before {
   right: auto;
@@ -11621,7 +11615,7 @@ header.masthead .masthead-heading {
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
-  text-align: left;
+  text-align: justify;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
   right: auto;
@@ -11662,7 +11656,7 @@ header.masthead .masthead-heading {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
+    text-align: justify;
   }
   .timeline > li .timeline-image {
     left: 50%;
@@ -11678,7 +11672,7 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
-    text-align: left;
+    text-align: justify;
   }
 }
 @media (min-width: 992px) {
@@ -11722,13 +11716,13 @@ header.masthead .masthead-heading {
   }
 }
 .team-member {
-  margin-bottom: 3rem;
-  text-align: center;
+  margin-top: 3rem;
+  text-align: justify;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 75%;
+  border-radius: 10px;
+  margin-top: 1rem;
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -11753,6 +11747,9 @@ section#contact h2.section-heading, section#contact .section-heading.h2 {
 }
 section#contact .section-heading {
   color: #495057;
+}
+section#contact .team-member img {
+  width: 41%;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;

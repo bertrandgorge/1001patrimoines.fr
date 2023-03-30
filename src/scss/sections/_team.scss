@@ -3,13 +3,13 @@
 //
 
 .team-member {
-    margin-bottom: 3rem;
-    text-align   : center;
+    margin-top: 3rem;
+    text-align   : justify;
 
     img {
-        width : 14rem;
-        height: 14rem;
-        border: 0.5rem solid fade-out($black, 0.9);
+        width: 75%;
+        border-radius: 10px;
+        margin-top: 1rem;
     }
 
     h4 {

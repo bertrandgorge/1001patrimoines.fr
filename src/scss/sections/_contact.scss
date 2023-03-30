@@ -15,6 +15,12 @@ section#contact {
         color: $gray-700;
     }
 
+    .team-member {
+        img {
+            width: 41%;
+        }
+    }
+
     form#contactForm {
         .form-group {
             margin-bottom: $grid-gutter-width;

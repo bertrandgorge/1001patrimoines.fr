@@ -10,7 +10,7 @@ html(lang='fr')
         include includes/navigation.pug
 
         // Services
-        section#services.page-section
+        section.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase QUI SOMMES-NOUS ?
@@ -19,33 +19,53 @@ html(lang='fr')
                         include:markdown-it texts/nous_connaitre.intro.md
 
                 .row
-                    .col-sm-6
+                    .col-sm-1
+                    .col-sm-4
+                        .team-member.text-center
+                            img(src='assets/img/team/Stéphanie BOULAY.jpg', alt='...')
+                    .col-sm-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/stephanie.jpg', alt='...')
                             h4.mb-4 Stéphanie BOULAY
                             .text-muted
                                 include:markdown-it texts/nous_connaitre.stephanie.md
+                    .col-sm-1
 
-                    .col-sm-6
+                .row
+                    .col-sm-1
+                    .col-sm-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/camille.jpg', alt='...')
                             h4.mb-4 Camille De SORAS
                             .text-muted
                                 include:markdown-it texts/nous_connaitre.camille.md
+                    .col-sm-4
+                        .team-member.text-center
+                            img(src='assets/img/team/Camille De SORAS.jpg', alt='...')
+                    .col-sm-1
 
-                    .col-sm-6
+
+                .row
+                    .col-sm-1
+                    .col-sm-4
+                        .team-member.text-center
+                            img(src='assets/img/team/Jean-Paul HUBERT.jpg', alt='...')
+                    .col-sm-4
                         .team-member
                             h4.mb-4 Jean-Paul HUBERT
                             .text-muted
                                 include:markdown-it texts/nous_connaitre.jean-paul.md
+                    .col-sm-1
 
         section#demarche.demarche
             .container
                 .row
-                    .col-lg-12.text-center.mb-5
+                    .col-lg-12.text-center
                         h2.section-heading.text-uppercase Notre d&eacute;marche
+                .row
+                    .col-lg-3
+                    .col-lg-6.text-center.mb-5
                         .section-subheading.text-muted
                             include:markdown-it texts/nous_connaitre.demarche.intro.md
+                    .col-lg-3
 
                 .row
                     .col-lg-6.col-xl-3
@@ -68,7 +88,7 @@ html(lang='fr')
         section#about.bg-light
             .container
                 .row
-                    .col-lg-12.text-center
+                    .col-lg-12.text-center.mb-5
                         h2.section-heading.text-uppercase Nos valeurs
                 .row
                     .col-lg-12
@@ -120,15 +140,17 @@ html(lang='fr')
 
         section#statuts.statuts
             .container
-                .section-heading.text-center
+                .section-heading.text-center.mb-5
                     h2 Des Statuts réglementés
                 .row
-                    .col-lg-12.text-muted
+                    .col-lg-2
+                    .col-lg-8.text-muted
                         include:markdown-it texts/statuts_reglementes.md
+                    .col-lg-2
 
         section#statuts.statuts
             .container
-                .section-heading.text-center
+                .section-heading.text-center.mb-5
                     h2 Nos partenaires
                 .row
                     .col-lg-12.text-center
