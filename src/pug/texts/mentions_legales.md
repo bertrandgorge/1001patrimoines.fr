@@ -5,3 +5,5 @@
 1001 Patrimoines dispose d’une couverture en Responsabilité Civile Professionnelle et d’une Garantie Financière conformes aux articles L 530-1 et L 530-2 du code des assurances : Zurich Insurance, police n° 7400026945.
 
 Informations disponibles auprès du Registre de l’Orias : [www.orias.fr](https://www.orias.fr/). Autorité de Contrôle Prudentiel et de Résolutions : 4 Place de Budapest, 75436 PARIS Cedex 09 [https://acpr.banque-france.fr/](https://acpr.banque-france.fr/).
+
+Numéro de TVA Intracommunautaire : FR9484021283100019
