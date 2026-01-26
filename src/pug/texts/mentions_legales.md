@@ -8,7 +8,7 @@ Numéro de TVA Intracommunautaire : FR9484021283100019
 
 Le mode de rémunération de notre cabinet est disponible sur la [fiche d’information légal du cabinet](/assets/fiche_informations_legales_1001patrimoines.pdf).
 
-1001 Patrimoines dispose d’une couverture en Responsabilité Civile Professionnelle et d’une Garantie Financière conformes aux articles L 530-1 et L 530-2 du code des assurances : Zurich Insurance, police n° 112786342.
+1001 Patrimoines dispose d’une couverture en Responsabilité civile professionnelle et d’une Garantie financière conformes aux articles L 530-1 et L 530-2 du code des assurances, souscrite auprès de MMA par l’intermédiaire de BDJ sous le numéro de police n° 112786342
 
 Informations disponibles auprès du Registre de l’Orias : [www.orias.fr](https://www.orias.fr/). Autorité de Contrôle Prudentiel et de Résolutions : 4 Place de Budapest, 75436 PARIS Cedex 09 [https://acpr.banque-france.fr/](https://acpr.banque-france.fr/).
 
