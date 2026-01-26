@@ -1,14 +1,20 @@
 **Cabinet 1001 Patrimoines**
-Le cabinet 1001 Patrimoines est une SARL au capital de 15 000 €, inscrite au registre du commerce et des sociétés de Lyon, sous le numéro 841212831, code NAF 66.22Z. Le siège social de la société se trouve au 4-6 avenue Joannes Hubert 69160 TASSIN LA DEMI-LUNE. 
+1001 Patrimoines, SARL au capital de 15 000 euros - RCS Lyon 840212831
 
-Numéro de TVA Intracommunautaire : FR9484021283100019
+Siège social : 4-6 avenue Joannes Hubert, 69160 Tassin la demi-lune
 
--   Courtier en assurance, avec recommandations personnalisées, référencé sur le registre unique des intermédiaires en assurance, banque et finance ([www.orias.fr](https://www.orias.fr/)) sous le n°18004423 et positionné dans la catégorie « b » n'étant pas soumis à une obligation contractuelle de travailler exclusivement avec une ou plusieurs entreprises d'assurance.
--   Conseiller en investissement financier, membre de l’ANACOFI Association Nationale des Conseillers financiers, adhérent sous le N° E009155, association agrée par l‘Autorité des Marchés Financiers ([www.amf-france.org](https://www.amf-france.org/)) dont l’adresse est : 17 place de la Bourse, 75082 Paris cedex 02 et l’adresse internet : www.amf-france.org. Inscrit à l’ORIAS ([www.orias.fr](https://www.orias.fr/)) sous le numéro 18004423. 
+Numéro de TVA Intracommunautaire : FR9484021283100019.
 
-Le mode de rémunération de notre cabinet est disponible sur la [fiche d’information légal du cabinet](/assets/fiche_informations_legales_1001patrimoines.pdf).
+Email : contact@1001patrimoines.fr; Tel : 06 81 93 18 70 ou 06 99 68 90 75; 
+Site internet : www.1001patrimoines.fr
 
-1001 Patrimoines dispose d’une couverture en Responsabilité civile professionnelle et d’une Garantie financière conformes aux articles L 530-1 et L 530-2 du code des assurances, souscrite auprès de MMA par l’intermédiaire de BDJ sous le numéro de police n° 112786342
+Conseiller en Investissement Financier, membre de la Chambre Nationale des Conseils en Gestion de Patrimoine, agréée par l’Autorité des Marchés Financiers
+
+Courtier en assurances. N° Orias : 18004423. 
+
+Informations disponibles auprès du Registre de l’Orias : www.orias.fr. 
+
+Responsabilité civile professionnelle et Garantie financière souscrite auprès de MMA par l’intermédiaire de BDJ sous le numéro de police n° 112786342
 
 Informations disponibles auprès du Registre de l’Orias : [www.orias.fr](https://www.orias.fr/). Autorité de Contrôle Prudentiel et de Résolutions : 4 Place de Budapest, 75436 PARIS Cedex 09 [https://acpr.banque-france.fr/](https://acpr.banque-france.fr/).
 
