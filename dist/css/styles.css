@@ -11200,7 +11200,7 @@ section h3.section-subheading, section .section-subheading.h3 {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Serif", "Droid Serif", Georgia, serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
